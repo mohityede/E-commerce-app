@@ -15,7 +15,7 @@ connectDB();
 
 // middlewares
 app.use(express.json());
-app.use('/api/v1/products', productRoute);
+app.use('/api/v1', productRoute);
 
 const port = process.env.PORT;
 app.listen(port, () => {
