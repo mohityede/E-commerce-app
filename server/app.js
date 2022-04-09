@@ -1,5 +1,5 @@
 import express from 'express';
-const app = express();
+api / v1const app = express();
 import dotenv from 'dotenv';
 
 // database function import
@@ -16,7 +16,7 @@ connectDB();
 
 // middlewares
 app.use(express.json());
-app.use('/api/v1', productRoute);
+app.use('/', productRoute);
 app.use('/api/v1', userRoute)
 
 const port = process.env.PORT;
