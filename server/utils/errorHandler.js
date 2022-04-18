@@ -10,4 +10,3 @@ class ErrorHander extends Error {
 }
 
 export default ErrorHander;
-// module.exports = ErrorHander

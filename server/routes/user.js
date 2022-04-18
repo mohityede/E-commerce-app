@@ -8,6 +8,5 @@ import {
 
 router.post("/user/register", registerUser);
 router.post("/user/login", loginUser);
-// http://localhost:7000/api/v1/admin/product/create
 
 export default router;
