@@ -12,6 +12,7 @@ dotenv.config({ path: './config/config.env' });
 
 // connecting to Database
 connectDB();
+//comment below dbconnect
 
 // middlewares
 app.use(express.json());
